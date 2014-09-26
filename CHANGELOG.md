@@ -1,5 +1,8 @@
 CHANGELOG
 =========
+### v0.3.2
+- Removes use_geoip (invalid element error)
+
 ### v0.3.1
 - Enable archlinux.journald.forward_to_syslog by default
 
