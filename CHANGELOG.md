@@ -1,5 +1,8 @@
 CHANGELOG
 =========
+### v0.3.1
+- Enable archlinux.journald.forward_to_syslog by default
+
 ### v0.3.0
 - Depends on syslog-ng cookbook to install and configure syslog-ng
 
