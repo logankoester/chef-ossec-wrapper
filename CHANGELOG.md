@@ -1,5 +1,10 @@
 CHANGELOG
 =========
+
+### v0.3.3
+- No longer need to ignore sasl_passwd.db since chef-postfix-0.1.1
+- Corrects localfile log locations
+
 ### v0.3.2
 - Removes use_geoip (invalid element error)
 
