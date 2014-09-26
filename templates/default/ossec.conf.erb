@@ -93,7 +93,7 @@
     <frequency><%= node['ossec']['syscheck_freq'] %></frequency>
     
     <!-- Directories to check  (perform all possible verifications) -->
-    <directories check_all="yes">/etc,/usr/bin,/usr/sbin</directories>
+    <directories realtime="yes" check_all="yes">/etc,/usr/bin,/usr/sbin</directories>
 
     <!-- Files/directories to ignore -->
     <ignore>/etc/mtab</ignore>
