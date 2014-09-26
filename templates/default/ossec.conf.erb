@@ -168,7 +168,7 @@
 
   <localfile>
     <log_format>syslog</log_format>
-    <location>/var/log/messages</location>
+    <location>/var/log/messages.log</location>
   </localfile>
 
   <localfile>
@@ -178,12 +178,12 @@
 
   <localfile>
     <log_format>syslog</log_format>
-    <location>/var/log/syslog</location>
+    <location>/var/log/syslog.log</location>
   </localfile>
 
   <localfile>
     <log_format>syslog</log_format>
-    <location>/var/log/mail.info</location>
+    <location>/var/log/mail.log</location>
   </localfile>
 
 <% unless node['ossec']['logs'].empty? -%>
