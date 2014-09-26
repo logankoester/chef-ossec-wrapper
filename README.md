@@ -6,7 +6,7 @@
 
 ## Installation
 
-Using [Berkshelf](http://berkshelf.com/), add the `archlinux` cookbook to your Berksfile.
+Using [Berkshelf](http://berkshelf.com/), add the `ossec-wrapper` cookbook to your Berksfile.
 
 ```ruby
 cookbook 'ossec-wrapper', github: 'logankoester/chef-ossec-wrapper', branch: 'master'

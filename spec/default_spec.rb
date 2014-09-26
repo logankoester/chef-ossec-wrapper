@@ -12,6 +12,10 @@ describe 'ossec-wrapper::default' do
     end.converge(described_recipe)
   end
 
+  it 'includes the syslog-ng::default recipe' do
+    expect(chef_run).to include_recipe('syslog-ng::default')
+  end
+
   it 'includes the ossec::default recipe' do
     expect(chef_run).to include_recipe('ossec::default')
   end

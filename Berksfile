@@ -1,6 +1,5 @@
 source 'https://api.berkshelf.com'
 metadata
 
-cookbook 'ossec',
-  git: 'https://github.com/logankoester/ossec-cookbook.git',
-  branch: 'systemd'
+cookbook 'syslog-ng', github: 'logankoester/chef-syslog-ng', branch: 'master'
+cookbook 'ossec', github: 'logankoester/ossec-cookbook', branch: 'systemd'
