@@ -9,3 +9,11 @@ template "#{node['ossec']['user']['dir']}/etc/ossec.conf" do
   variables(:ossec => node['ossec']['user'])
   notifies :restart, 'service[ossec]'
 end
+
+template "#{node['ossec']['user']['dir']}/rules/local_rules.xml" do
+  source 'rules/local_rules.xml.erb'
+  owner 'root'
+  group 'ossec'
+  mode 0440
+  notifies :restart, 'service[ossec]'
+end
