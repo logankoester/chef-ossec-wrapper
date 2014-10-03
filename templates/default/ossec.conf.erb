@@ -163,6 +163,14 @@
     <timeout_allowed>yes</timeout_allowed>
   </command>
 
+  <active-response>
+    <command>firewall-drop</command>
+    <location>local</location>
+    <level>10</level>
+    <rules_group>attack</rules_group>
+    <timeout>600</timeout>
+  </active-response>
+
   <!-- Files to monitor (localfiles) -->
 
   <localfile>
