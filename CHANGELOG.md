@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### v0.4.1
+- Fixes XML schema error
+- Adds monitoring of nginx access.log file
+
 ### v0.4.0
 - Adds rules for Wordpress xmlrpc attack
 - Automatically firewall-drop level 10 attack events for 10 minutes
