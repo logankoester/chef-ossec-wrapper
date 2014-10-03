@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### v0.4.0
+- Adds rules for Wordpress xmlrpc attack
+- Automatically firewall-drop level 10 attack events for 10 minutes
+
 ### v0.3.3
 - No longer need to ignore sasl_passwd.db since chef-postfix-0.1.1
 - Corrects localfile log locations
