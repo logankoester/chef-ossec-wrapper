@@ -1,13 +1,15 @@
-<rule id="110000" level="1">
-  <if_sid>31108</if_sid>
-  <url>xmlrpc.php</url>
-  <match>POST</match>
-  <description>WordPress xmlrpc attempt.</description>
-</rule>
+<group name="syslog,wordpress">
+  <rule id="110000" level="1">
+    <if_sid>31108</if_sid>
+    <url>xmlrpc.php</url>
+    <match>POST</match>
+    <description>WordPress xmlrpc attempt.</description>
+  </rule>
 
-<rule id="110001" level="10" frequency="6" timeframe="600">
-  <if_matched_sid>110000</if_matched_sid>
-  <same_source_ip />
-  <description>WordPress xmlrpc attack.</description>
-  <group>attack,</group>
-</rule>
+  <rule id="110001" level="10" frequency="6" timeframe="600">
+    <if_matched_sid>110000</if_matched_sid>
+    <same_source_ip />
+    <description>WordPress xmlrpc attack.</description>
+    <group>attack,</group>
+  </rule>
+</group>
