@@ -13,3 +13,16 @@
     <group>attack,</group>
   </rule>
 </group>
+
+<group name="sshguard">
+  <rule id="111000" level="0">
+    <decoded_as>sshguard</decoded_as>
+    <description>sshguard event.</description>
+  </rule>
+
+  <rule id="111001" level="10">
+    <if_sid>111000</if_sid>
+    <description>IP address blocked by sshguard</description>
+    <options>no_email_alert</options>
+  </rule>
+</group>

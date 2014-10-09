@@ -1,0 +1,10 @@
+<decoder name="sshguard">
+  <program_name>^sshguard</program_name>
+</decoder>
+
+<decoder name="sshguard-blocking">
+  <parent>sshguard</parent>
+  <prematch>^Blocking</prematch>
+  <regex offset="after_prematch">^ (\S+):\S+ for (\S+):</regex>
+  <order>srcip</order>
+</decoder>

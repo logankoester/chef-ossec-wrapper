@@ -23,4 +23,12 @@ describe 'ossec-wrapper::default' do
   it 'renders the ossec.conf template' do
     expect(chef_run).to render_file('/var/ossec/etc/ossec.conf').with_content(/chefspec@example\.com/)
   end
+
+  it 'renders the local_rules.xml template' do
+    expect(chef_run).to render_file('/var/ossec/rules/local_rules.xml')
+  end
+
+  it 'renders the local_decoders.xml template' do
+    expect(chef_run).to render_file('/var/ossec/etc/local_decoders.xml')
+  end
 end
