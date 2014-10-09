@@ -13,6 +13,7 @@
 <% @ossec['white_list'].each do |wl| -%>
     <white_list><%= wl %></white_list>
 <% end -%>
+    <email_maxperhour><%= @ossec['email_maxperhour'] %></email_maxperhour>
   </global>
 
 <% if @ossec['install_type'] == 'agent' -%>
