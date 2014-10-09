@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+### v0.6.1
+- Correctly set default emails_maxperhour value
+
 ### v0.6.0
 - Sets global option email_maxperhour (default 12)
 
