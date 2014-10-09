@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### v0.5.0
+- Adds sshguard decoder and rules
+- Adds a chefignore file
+- Adds guard for automatic testing and linting in development
+
 ### v0.4.1
 - Fixes XML schema error
 - Adds monitoring of nginx access.log file
