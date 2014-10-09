@@ -6,4 +6,4 @@ default['ossec']['url'] = 'http://www.ossec.net/files/ossec-hids-2.8.1.tar.gz'
 default['ossec']['syscheck_freq'] = 14400 # Every 4 hours
 default['ossec']['disable_config_generation'] = true
 default['ossec']['logs'] = []
-default['ossec']['email_maxperhour'] = 12
+default['ossec']['user']['email_maxperhour'] = 12
