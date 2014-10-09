@@ -4,7 +4,7 @@ maintainer_email 'logan@logankoester.com'
 license          'MIT'
 description      'Wrapper for the OSSEC cookbook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.5.0'
+version          '0.6.0'
 supports 'arch'
 depends 'syslog-ng'
 depends 'ossec'

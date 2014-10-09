@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+### v0.6.0
+- Sets global option email_maxperhour (default 12)
+
 ### v0.5.0
 - Adds sshguard decoder and rules
 - Adds a chefignore file
