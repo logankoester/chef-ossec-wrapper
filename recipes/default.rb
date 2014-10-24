@@ -18,8 +18,8 @@ template "#{node['ossec']['user']['dir']}/rules/local_rules.xml" do
   notifies :restart, 'service[ossec]'
 end
 
-template "#{node['ossec']['user']['dir']}/etc/local_decoders.xml" do
-  source 'etc/local_decoders.xml.erb'
+template "#{node['ossec']['user']['dir']}/etc/local_decoder.xml" do
+  source 'etc/local_decoder.xml.erb'
   owner 'root'
   group 'ossec'
   mode 0440

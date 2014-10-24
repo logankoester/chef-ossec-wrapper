@@ -28,7 +28,7 @@ describe 'ossec-wrapper::default' do
     expect(chef_run).to render_file('/var/ossec/rules/local_rules.xml')
   end
 
-  it 'renders the local_decoders.xml template' do
-    expect(chef_run).to render_file('/var/ossec/etc/local_decoders.xml')
+  it 'renders the local_decoder.xml template' do
+    expect(chef_run).to render_file('/var/ossec/etc/local_decoder.xml')
   end
 end
