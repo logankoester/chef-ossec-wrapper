@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+### v0.6.2
+- local_decoders.xml should actually be local_decoder.xml
+
 ### v0.6.1
 - Correctly set default emails_maxperhour value
 
