@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+### v0.6.3
+- Suppress email from multiple web server 400 error codes
+
 ### v0.6.2
 - local_decoders.xml should actually be local_decoder.xml
 
