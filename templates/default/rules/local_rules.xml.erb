@@ -26,3 +26,11 @@
     <options>no_email_alert</options>
   </rule>
 </group>
+
+<group name="web,accesslog,">
+  <rule id="112000" level="10">
+    <if_sid>31151</if_sid>
+    <description>Suppress email from multiple web server 400 error codes</description>
+    <options>no_email_alert</options>
+  </rule>
+</group>
