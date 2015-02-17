@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+### v0.7.0
+- Upgrades ossec-hids to 2.9.0-beta03
+
 ### v0.6.3
 - Suppress email from multiple web server 400 error codes
 
