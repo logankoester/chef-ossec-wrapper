@@ -23,4 +23,4 @@ See `attributes/default.rb` for details
 
 ## Author
 
-Copyright (c) 2014 [Logan Koester](http://logankoester.com). Released under the MIT license. See `LICENSE` for details.
+Copyright (c) 2014-2017 [Logan Koester](http://logankoester.com). Released under the MIT license. See `LICENSE` for details.
